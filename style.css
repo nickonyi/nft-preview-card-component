@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 120px 0;
+    flex-direction: column;
+}
+
+.hero-card {
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.hero-img {
+    width: 295px;
+    height: 300px;
+}
+
+.hero-header {
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.hero-text {
+    margin-top: 20px;
+    font-weight: 100;
+    color: hsl(215, 51%, 70%);
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.hero-content1,
+.hero-content2 {
+    display: flex;
+    gap: 8px;
+}
+
+.hero-content1 {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.hero-content2 {
+    color: hsl(215, 51%, 70%);
+}
+
+.hero-footer {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.hero-footer-img {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.hero-footer-text {
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
